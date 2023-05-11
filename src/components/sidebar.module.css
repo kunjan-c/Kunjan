@@ -1,0 +1,24 @@
+.optionText {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .sidebarMainContainer{
+    width: 100%;
+    height: 100%;
+  }
+  .sidebarSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+  }
+  .sidebarOptionContainer{
+    width: 100%;
+  }

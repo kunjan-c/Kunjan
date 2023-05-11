@@ -1,0 +1,24 @@
+.homepage-k-Img{
+    width: auto;
+    height: 90%;
+    /* padding-top: 40px; */
+}
+.homepage-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.homepage-intro{
+    margin-top: 100px;
+    font-family: var(--highlightedText);
+}
+.intro-text{
+    font-size: 95px;
+    font-family: var(--highlightedText);
+    line-height: 140px;
+}
+.K-text-intro{
+font-size: 80px;
+}
