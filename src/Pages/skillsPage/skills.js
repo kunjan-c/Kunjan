@@ -1,4 +1,5 @@
 import React from "react";
+import SkillsMarquee from "./skillsMarquee";
 
 export default function Skills() {
   return (
@@ -13,6 +14,9 @@ export default function Skills() {
           Tools, GitHub, Git, BitBucket, JIRA. I have knowledge of cross-browser
           compatibility, responsive design, and proficiency in Canva, GIMP, and
           Figma for graphics editing.
+        </div>
+        <div className="skill-right-container">
+          {/* <SkillsMarquee></SkillsMarquee> */}
         </div>
       </div>
     </div>

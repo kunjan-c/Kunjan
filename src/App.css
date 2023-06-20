@@ -65,14 +65,17 @@ body {
   font-family: "Hind", sans-serif;
   letter-spacing: 2px;
   line-height: 2.2;
+  flex: 1;
 }
 .summary-text-container {
-  width: 50%;
+  /* width: 100%; */
   display: flex;
   justify-content: flex-start;
   /* align-items: center; */
-  height: 100%;
+  height: 100vh;
   padding-top: 10vh;
+  flex-direction: row;
+
 }
 
 .homepage-section-container {

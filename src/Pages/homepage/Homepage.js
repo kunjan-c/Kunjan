@@ -4,6 +4,7 @@ import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
 import Skills from "Pages/skillsPage/skills";
+import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 
 export default function Homepage() {
   return (
@@ -33,6 +34,7 @@ export default function Homepage() {
         </div>
         <About></About>
         <Skills></Skills>
+        <SkillsMainPage></SkillsMainPage>
       </div>
     </Fragment>
   );
