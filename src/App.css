@@ -1,5 +1,5 @@
 :root {
-  --main-background-color: #2E2E2E;
+  --main-background-color: #2e2e2e;
   --main-color: #b7bbd8;
   --highlightedText: "Merriweather", serif;
 }
@@ -53,4 +53,35 @@ body {
   font-family: "Hind", sans-serif;
   font-size: 14px;
   font-weight: normal;
+}
+.main-title {
+  font-size: 30px;
+  font-family: "Hind", sans-serif;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+.summary {
+  font-size: 20px;
+  font-family: "Hind", sans-serif;
+  letter-spacing: 2px;
+  line-height: 2.2;
+  flex: 1;
+}
+.summary-text-container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  height: 100vh;
+  padding-top: 10vh;
+  flex-direction: row;
+
+}
+
+.homepage-section-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
 }
