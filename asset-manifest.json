@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab8bac4c.css",
+    "main.js": "/static/js/main.948b94c6.js",
+    "static/media/kunjan_img2 2.png": "/static/media/kunjan_img2 2.8e43d2c0ab6676f780b8.png",
+    "static/media/react_color_logo.png": "/static/media/react_color_logo.cb1e073ddf85a98723e1.png",
+    "static/media/html_grey.png": "/static/media/html_grey.d61db87d9f66d2a3b36b.png",
+    "static/media/react_grey_logo.png": "/static/media/react_grey_logo.e19b715314bbd7894575.png",
+    "static/media/html_logo_color.png": "/static/media/html_logo_color.e9702ba1a67fdd45f3ca.png",
+    "static/media/css3_grey.png": "/static/media/css3_grey.f200b72116b6444a47f8.png",
+    "static/media/logo_next-color.svg": "/static/media/logo_next-color.e028d311176b300bdfb1e2f67a4d56b5.svg",
+    "static/media/js_color_logo.png": "/static/media/js_color_logo.573aaa8ae56192657af4.png",
+    "static/media/css_color_logo.png": "/static/media/css_color_logo.a62c74f64f832c4e12c2.png",
+    "static/media/bootstrap_colo.png": "/static/media/bootstrap_colo.9855cf981c6a1e0078c9.png",
+    "static/media/wordpress_grey_logo.svg": "/static/media/wordpress_grey_logo.8ffc39968cd97a64c86ae3acd57713f6.svg",
+    "static/media/wordpress_color_logo.svg": "/static/media/wordpress_color_logo.2f2b0ab33839e65edacf23c0b30c61a2.svg",
+    "static/media/js_grey_logo.png": "/static/media/js_grey_logo.5c53084ead6769a21af1.png",
+    "static/media/redux_color_logo.svg": "/static/media/redux_color_logo.88e3cb2be9609f2381353bb383fe3f35.svg",
+    "static/media/react-router-color.svg": "/static/media/react-router-color.74335a46fc4c5140a90d71e0edca5499.svg",
+    "static/media/redux_gray_logo.svg": "/static/media/redux_gray_logo.061e369a87184e1fdfd3cb96721fe48a.svg",
+    "static/media/react_router_grey-logo.svg": "/static/media/react_router_grey-logo.085ab746cf4a0031652706aec7108308.svg",
+    "static/media/bootstrap_grey_logo.png": "/static/media/bootstrap_grey_logo.e3358ccaba3f676bc28e.png",
+    "static/media/node_color_logo.svg": "/static/media/node_color_logo.a5f16ac5db937ada9e6fe6ea5402fc15.svg",
+    "static/media/git_logo_color.svg.svg": "/static/media/git_logo_color.svg.bc9949f9bc7fdbb1335a466a055443a1.svg",
+    "static/media/node_grey_logo.svg": "/static/media/node_grey_logo.47d2433c352c182b842647c90ea6bc3a.svg",
+    "static/media/git_grey_logo.svg": "/static/media/git_grey_logo.918256a59ea90a620c801a79edad09f5.svg",
+    "static/media/next-color-logo.svg": "/static/media/next-color-logo.968e774d46e8378be3bf3858d24bdc7c.svg",
+    "static/media/right_face_arrow.svg": "/static/media/right_face_arrow.8ecb38e4682570f6746ce8cb52dc3caf.svg",
+    "static/media/left_arrow.svg": "/static/media/left_arrow.9f116609fc6dd55daee319c915424b8b.svg",
+    "static/media/npm_color_logo.svg": "/static/media/npm_color_logo.a935fccf6b86e0f6268d64650e0759a7.svg",
+    "static/media/npm _grey_logo.svg": "/static/media/npm _grey_logo.85bb1c39680cbb12229fec5ecf4bb5ad.svg",
+    "static/media/purpule_slash_icon.svg": "/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
+    "index.html": "/index.html",
+    "main.ab8bac4c.css.map": "/static/css/main.ab8bac4c.css.map",
+    "main.948b94c6.js.map": "/static/js/main.948b94c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8bac4c.css",
+    "static/js/main.948b94c6.js"
+  ]
+}
