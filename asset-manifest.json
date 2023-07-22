@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Kunjan.github.io/static/css/main.724142f2.css",
-    "main.js": "/Kunjan.github.io/static/js/main.d8dbba1d.js",
+    "main.css": "/Kunjan.github.io/static/css/main.1c5b2e51.css",
+    "main.js": "/Kunjan.github.io/static/js/main.7810326f.js",
+    "static/media/woman-g5e97a2e26_1280.png": "/Kunjan.github.io/static/media/woman-g5e97a2e26_1280.f0f62379283631b25208.png",
     "static/media/instagram-g5f45ac6b7_1280.png": "/Kunjan.github.io/static/media/instagram-g5f45ac6b7_1280.74fdca24bd95065935fc.png",
     "static/media/kunjan_img2 2.png": "/Kunjan.github.io/static/media/kunjan_img2 2.8e43d2c0ab6676f780b8.png",
     "static/media/whatsapp-gedd9623b0_1280.png": "/Kunjan.github.io/static/media/whatsapp-gedd9623b0_1280.e3f3d367fadfb7f9be08.png",
@@ -35,11 +36,11 @@
     "static/media/npm _grey_logo.svg": "/Kunjan.github.io/static/media/npm _grey_logo.85bb1c39680cbb12229fec5ecf4bb5ad.svg",
     "static/media/purpule_slash_icon.svg": "/Kunjan.github.io/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
     "index.html": "/Kunjan.github.io/index.html",
-    "main.724142f2.css.map": "/Kunjan.github.io/static/css/main.724142f2.css.map",
-    "main.d8dbba1d.js.map": "/Kunjan.github.io/static/js/main.d8dbba1d.js.map"
+    "main.1c5b2e51.css.map": "/Kunjan.github.io/static/css/main.1c5b2e51.css.map",
+    "main.7810326f.js.map": "/Kunjan.github.io/static/js/main.7810326f.js.map"
   },
   "entrypoints": [
-    "static/css/main.724142f2.css",
-    "static/js/main.d8dbba1d.js"
+    "static/css/main.1c5b2e51.css",
+    "static/js/main.7810326f.js"
   ]
 }
