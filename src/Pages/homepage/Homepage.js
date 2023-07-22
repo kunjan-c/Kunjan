@@ -5,6 +5,7 @@ import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
 import Skills from "Pages/skillsPage/skills";
 import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
+import ContactMe from "Pages/conatctMe/contactMe";
 
 export default function Homepage() {
   return (
@@ -34,7 +35,8 @@ export default function Homepage() {
         </div>
         <About></About>
         <Skills></Skills>
-        <SkillsMainPage></SkillsMainPage>
+        <ContactMe></ContactMe>
+        {/* <SkillsMainPage></SkillsMainPage> */}
       </div>
     </Fragment>
   );

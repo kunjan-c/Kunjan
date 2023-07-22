@@ -1,0 +1,104 @@
+.form-container {
+  width: 100%;
+  /* background-color: red; */
+  padding: 20px 0px;
+}
+.connect-us-container {
+  background-color: rgb(60, 60, 60);
+  max-width: 100%;
+  padding: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.form-tag {
+  width: 50%;
+}
+.form-input-container {
+  margin-bottom: 50px;
+}
+.form-input {
+  width: 80%;
+  height: 30px;
+}
+.form-input-container textarea {
+  width: 80%;
+  height: 100px;
+}
+.form-input-container label {
+  /* padding: 10px; */
+  display: flex;
+  margin: 20px 0px;
+  color: rgb(205, 205, 205);
+  font-size: 18px;
+}
+
+.contact-me-button {
+  color: #fff;
+  padding: 15px 25px;
+  margin-top: 30px;
+  background-color: var(--secondaryPurpuleColor);
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.social-icons-container {
+  display: flex;
+}
+.social-icons {
+  width: 40px;
+  height: auto;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.contact-us-section-subtitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.connect-text {
+}
+.form-and-social-media-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.social-media-connect-container {
+  width: 50%;
+}
+.lets-connect-desc {
+  font-size: 20px;
+  word-spacing: 5px;
+  color: #b7bbd8;
+  margin-top: 15px;
+}
+.contcat-info-text {
+  color: #b7bbd8;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 15px;
+}
