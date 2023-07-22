@@ -34,7 +34,7 @@ export default function Homepage() {
         </div>
         <About></About>
         <Skills></Skills>
-        <SkillsMainPage></SkillsMainPage>
+        {/* <SkillsMainPage></SkillsMainPage> */}
       </div>
     </Fragment>
   );
