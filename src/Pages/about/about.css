@@ -1,4 +1,27 @@
 .about-container{
 padding: 10px 0px;
+
+}
+.summary{
+    width: 30%;
+
 }
 
+.summary-text-container{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: auto;
+   align-items: center;
+
+}
+.women-img{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    z-index: -1;
+    right: 0;
+}
