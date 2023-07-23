@@ -23,7 +23,7 @@ export default function Homepage() {
               </span>
             </div>
             <div>
-              <span className="web-developer-text">Web Developer</span>
+              <span className="web-developer-text">Fronten Web Developer</span>
             </div>
           </div>
           <div className="homepage-main-img">

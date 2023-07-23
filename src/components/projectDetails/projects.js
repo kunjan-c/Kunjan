@@ -55,7 +55,7 @@ export default function Projects() {
       projectShortDesc: solarSystem,
     },
     {
-      title: "Fixology",
+      title: "Fixology Website",
       projectShortDesc: solarSystem,
     },
     
