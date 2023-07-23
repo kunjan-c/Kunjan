@@ -10,34 +10,54 @@ import solarSystem from "asset/img/solarSystemUI.png";
 
 export default function Projects() {
   const myPortfolio = [
+    // {
+    //   title: "Invoice Management",
+    //   projectImg: invoicetManagementAppSS,
+    // },
+    // {
+    //   title: "Student Management App",
+    //   projectImg: studentManagementAppSS,
+    // },
+    // {
+    //   title: "Inventory  Management App",
+    //   projectImg: inventoryManagement,
+    // },
+    // {
+    //   title: "Chat UI",
+    //   projectImg: chatUI,
+    // },
+    // {
+    //   title: "Flight Ticket UI",
+    //   projectImg: ticketFRontUi,
+    // },
+    // {
+    //   title: "Movie Db App",
+    //   projectImg: movieDb,
+    // },
+    // {
+    //     title: "Solar System UI",
+    //     projectImg: solarSystem,
+    //   },
     {
-      title: "Invoice Management",
-      projectImg: invoicetManagementAppSS,
+      title: "Wealthier",
+      projectShortDesc: solarSystem,
     },
     {
-      title: "Student Management App",
-      projectImg: studentManagementAppSS,
+      title: "BabyChefPizza Game",
+      projectShortDesc: solarSystem,
     },
     {
-      title: "Inventory  Management App",
-      projectImg: inventoryManagement,
+      title: "Amazon Ad Management CMS",
+      projectShortDesc: solarSystem,
     },
     {
-      title: "Chat UI",
-      projectImg: chatUI,
+      title: "KYC Verification SDK",
+      projectShortDesc: solarSystem,
     },
     {
-      title: "Flight Ticket UI",
-      projectImg: ticketFRontUi,
+      title: "Fixology",
+      projectShortDesc: solarSystem,
     },
-    {
-      title: "Movie Db App",
-      projectImg: movieDb,
-    },
-    {
-        title: "Solar System UI",
-        projectImg: solarSystem,
-      },
     
   ];
   return (
@@ -48,7 +68,7 @@ export default function Projects() {
       {myPortfolio.map((projects) => {
         return (
           <div className="single-portfolio-card">
-            <img className="portfolio-img" src={projects.projectImg}></img>
+            {/* <img className="portfolio-img" src={projects.projectImg}></img> */}
             <div className="portfolio-title">{projects.title}</div>
             {/* <div className='portfolio-desc'>TEST</div> */}
           </div>
