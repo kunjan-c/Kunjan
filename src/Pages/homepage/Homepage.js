@@ -8,6 +8,7 @@ import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
 import Projects from "components/projectDetails/projects";
 import Expirience from "components/expirience/expirience";
+import Education from "components/Education/education";
 
 export default function Homepage() {
   return (
@@ -40,6 +41,7 @@ export default function Homepage() {
        
         <Skills></Skills>
         <Expirience></Expirience>
+        <Education></Education>
         <Projects></Projects>
         <ContactMe></ContactMe>
         {/* <SkillsMainPage></SkillsMainPage> */}
