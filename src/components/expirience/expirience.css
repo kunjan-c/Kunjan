@@ -1,0 +1,24 @@
+
+.exp-container{
+margin: 150px 0px;
+display: flex;
+justify-content: space-around;
+}
+.single-exp-container{
+margin: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.company-type-img{
+width: 250px;
+height: 200px;
+background-blend-mode: darken;
+}
+.company-name{
+font-size: 20px;
+margin: 10px;
+text-align: center;
+}
