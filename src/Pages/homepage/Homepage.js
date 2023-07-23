@@ -6,6 +6,7 @@ import About from "Pages/about/about";
 import Skills from "Pages/skillsPage/skills";
 import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
+import Projects from "components/projectDetails/projects";
 
 export default function Homepage() {
   return (
@@ -35,6 +36,7 @@ export default function Homepage() {
         </div>
         <About></About>
         <Skills></Skills>
+        <Projects></Projects>
         <ContactMe></ContactMe>
         {/* <SkillsMainPage></SkillsMainPage> */}
       </div>
