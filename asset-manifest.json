@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kunjan.github.io/static/css/main.f6ef273e.css",
-    "main.js": "/Kunjan.github.io/static/js/main.d0510e70.js",
+    "main.css": "/Kunjan.github.io/static/css/main.a38f9f18.css",
+    "main.js": "/Kunjan.github.io/static/js/main.3d348ad3.js",
     "static/media/companyImg.png": "/Kunjan.github.io/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/solarSystemUI.png": "/Kunjan.github.io/static/media/solarSystemUI.6bb6fcc530b84e407817.png",
     "static/media/school.png": "/Kunjan.github.io/static/media/school.4c61baf26ef7a06184e9.png",
@@ -12,12 +12,16 @@
     "static/media/kunjan_img2 2.png": "/Kunjan.github.io/static/media/kunjan_img2 2.8e43d2c0ab6676f780b8.png",
     "static/media/whatsapp-gedd9623b0_1280.png": "/Kunjan.github.io/static/media/whatsapp-gedd9623b0_1280.e3f3d367fadfb7f9be08.png",
     "static/media/movieDb.png": "/Kunjan.github.io/static/media/movieDb.3c50b7f2610eac6b1cfb.png",
+    "static/media/htmlImg2.png": "/Kunjan.github.io/static/media/htmlImg2.fb627e76c05a9a6c7444.png",
+    "static/media/cssImg2.png": "/Kunjan.github.io/static/media/cssImg2.ea63097553654f07d95c.png",
+    "static/media/bootstrapImg2.png": "/Kunjan.github.io/static/media/bootstrapImg2.c5b2fc44d37fd3864947.png",
     "static/media/chat_ui.png": "/Kunjan.github.io/static/media/chat_ui.8262d2172c64233eee63.png",
     "static/media/facebook-g2f441716f_1280.png": "/Kunjan.github.io/static/media/facebook-g2f441716f_1280.80440785ed8341e15cd5.png",
     "static/media/titcket_frontUI.png": "/Kunjan.github.io/static/media/titcket_frontUI.b694dbc010f23a97ca7a.png",
     "static/media/react_color_logo.png": "/Kunjan.github.io/static/media/react_color_logo.cb1e073ddf85a98723e1.png",
     "static/media/html_grey.png": "/Kunjan.github.io/static/media/html_grey.d61db87d9f66d2a3b36b.png",
     "static/media/freelancerImg2.png": "/Kunjan.github.io/static/media/freelancerImg2.13e81148eae79bf513d8.png",
+    "static/media/reactImg2.png": "/Kunjan.github.io/static/media/reactImg2.20adfb35ae6a6e5817bf.png",
     "static/media/react_grey_logo.png": "/Kunjan.github.io/static/media/react_grey_logo.e19b715314bbd7894575.png",
     "static/media/student_management.png": "/Kunjan.github.io/static/media/student_management.f0ac0d56317ee85b5782.png",
     "static/media/html_logo_color.png": "/Kunjan.github.io/static/media/html_logo_color.e9702ba1a67fdd45f3ca.png",
@@ -50,11 +54,11 @@
     "static/media/npm _grey_logo.svg": "/Kunjan.github.io/static/media/npm _grey_logo.85bb1c39680cbb12229fec5ecf4bb5ad.svg",
     "static/media/purpule_slash_icon.svg": "/Kunjan.github.io/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
     "index.html": "/Kunjan.github.io/index.html",
-    "main.f6ef273e.css.map": "/Kunjan.github.io/static/css/main.f6ef273e.css.map",
-    "main.d0510e70.js.map": "/Kunjan.github.io/static/js/main.d0510e70.js.map"
+    "main.a38f9f18.css.map": "/Kunjan.github.io/static/css/main.a38f9f18.css.map",
+    "main.3d348ad3.js.map": "/Kunjan.github.io/static/js/main.3d348ad3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ef273e.css",
-    "static/js/main.d0510e70.js"
+    "static/css/main.a38f9f18.css",
+    "static/js/main.3d348ad3.js"
   ]
 }
