@@ -4,19 +4,19 @@ import "./skills.css";
 import reduxColorLogo from "asset/svg/redux_color_logo.svg";
 import reduxGreyLogo from "asset/svg/redux_gray_logo.svg";
 
-import htmlColorLogo from "asset/img/html_logo_color.png";
+import htmlColorLogo from "asset/img/htmlImg2.png";
 import htmlGreyLogo from "asset/img/html_grey.png";
 import cssGreyLogo from "asset/img/css3_grey.png";
-import cssColorLogo from "asset/img/css_color_logo.png";
+import cssColorLogo from "asset/img/cssImg2.png";
 
 import jsGreyLogo from "asset/img/js_grey_logo.png";
 import jsColorLogo from "asset/img/js_color_logo.png";
 
 import reactGreyLogo from "asset/img/react_grey_logo.png";
-import reactColorLogo from "asset/img/react_color_logo.png";
+import reactColorLogo from "asset/img/reactImg2.png";
 
 import btGreyLogo from "asset/img/bootstrap_grey_logo.png";
-import btColorLogo from "asset/img/bootstrap_colo.png";
+import btColorLogo from "asset/img/bootstrapImg2.png";
 
 import nextGreyLogo from "asset/svg/next-color-logo.svg";
 import nextColorLogo from "asset/svg/logo_next-color.svg";

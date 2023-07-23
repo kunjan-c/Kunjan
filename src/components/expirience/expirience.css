@@ -2,6 +2,7 @@
 .exp-container{
 margin: 150px 0px;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 }
 .single-exp-container{
