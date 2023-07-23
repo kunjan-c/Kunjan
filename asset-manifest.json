@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kunjan.github.io/static/css/main.a38f9f18.css",
-    "main.js": "/Kunjan.github.io/static/js/main.3d348ad3.js",
+    "main.js": "/Kunjan.github.io/static/js/main.3f728519.js",
     "static/media/companyImg.png": "/Kunjan.github.io/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/solarSystemUI.png": "/Kunjan.github.io/static/media/solarSystemUI.6bb6fcc530b84e407817.png",
     "static/media/school.png": "/Kunjan.github.io/static/media/school.4c61baf26ef7a06184e9.png",
@@ -55,10 +55,10 @@
     "static/media/purpule_slash_icon.svg": "/Kunjan.github.io/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
     "index.html": "/Kunjan.github.io/index.html",
     "main.a38f9f18.css.map": "/Kunjan.github.io/static/css/main.a38f9f18.css.map",
-    "main.3d348ad3.js.map": "/Kunjan.github.io/static/js/main.3d348ad3.js.map"
+    "main.3f728519.js.map": "/Kunjan.github.io/static/js/main.3f728519.js.map"
   },
   "entrypoints": [
     "static/css/main.a38f9f18.css",
-    "static/js/main.3d348ad3.js"
+    "static/js/main.3f728519.js"
   ]
 }
