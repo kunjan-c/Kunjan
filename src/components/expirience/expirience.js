@@ -1,8 +1,8 @@
 import React from "react";
 import "./expirience.css";
-import cs from "asset/img/companyIllustartion.png";
-import soleCompany from "asset/img/sole_company.png";
-import freelancing from "asset/img/freelancing.png";
+import cs from "asset/img/companyImg.png";
+import soleCompany from "asset/img/solePropritorImg2.png";
+import freelancing from "asset/img/freelancerImg2.png";
 export default function Expirience() {
   return (
     <>
