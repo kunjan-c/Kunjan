@@ -26,7 +26,7 @@ export default function Education() {
         </div>
         <div className='step4'>
             <img className='education-stage' src={collegeImg}></img>
-            <div className='education-title'>Vivek College Of Commerce</div>
+            <div className='education-title'>Vivek Vidyalaya</div>
             <div className='education-desc'>HSC</div>
             <div className='education-desc'>2011-2013</div>
         </div>
