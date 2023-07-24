@@ -41,40 +41,52 @@ export default function Projects() {
     {
       title: "Wealthier",
       projectShortDesc: solarSystem,
+      projectSummaryText :"Carried out requirement analysis and Implemented the web implementation for a personal finance management smartphone app using RectJS for provided UI mockups."
     },
     {
       title: "BabyChefPizza Game",
       projectShortDesc: solarSystem,
+      projectSummaryText :"Carried out requirement analysis and Implemented the web implementation for a children’s mobile game using HTML, CSS3, and vanilla JavaScript from provided UI mockups."
     },
     {
       title: "Amazon Ad Management CMS",
       projectShortDesc: solarSystem,
+      projectSummaryText :"Ad management, and analytics application written with React as front-end technology,      "
     },
     {
       title: "KYC Verification SDK",
       projectShortDesc: solarSystem,
+      projectSummaryText :"Created KYC Application from scratch which was written with React as front-end-technology"
     },
     {
       title: "Fixology Website",
       projectShortDesc: solarSystem,
+      projectSummaryText :"Design and developed website for the company"
     },
-    
   ];
   return (
     <>
-     <div className="main-title">Projects</div>
-    <div className="portfolio-container">
-        
-      {myPortfolio.map((projects) => {
-        return (
-          <div className="single-portfolio-card">
-            {/* <img className="portfolio-img" src={projects.projectImg}></img> */}
-            <div className="portfolio-title">{projects.title}</div>
-            {/* <div className='portfolio-desc'>TEST</div> */}
-          </div>
-        );
-      })}
-    </div>
+      <div className="main-title">Projects</div>
+      <div className="portfolio-container">
+        {myPortfolio.map((projects) => {
+          return (
+            <div className="single-portfolio-card flip-card">
+              <div className="flip-card-inner">
+                {/* <img className="portfolio-img" src={projects.projectImg}></img> */}
+                <div className="flip-card-Front ">
+                  <div className="portfolio-title ">{projects.title}</div>
+                </div>
+
+                {/* <div className='portfolio-desc'>TEST</div> */}
+                <div className="flip-card-back  ">
+                <div className="flip-card-back-desc ">{projects.title}</div>
+                  <div className="flip-card-back-desc">{projects.projectSummaryText}</div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </>
   );
 }
