@@ -4,6 +4,7 @@ import facebook from "asset/img/facebook-g2f441716f_1280.png";
 import whatsApp from "asset/img/whatsapp-gedd9623b0_1280.png";
 import instagram from "asset/img/instagram-g5f45ac6b7_1280.png";
 import linkdin from "asset/img/linkedin_3536505.png";
+import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
 export default function ContactMe() {
   return (
     <div className="form-container">
@@ -41,6 +42,7 @@ export default function ContactMe() {
               <img className="social-icons" src={facebook}></img>
               <img className="social-icons" src={whatsApp}></img>
             </div>
+            <DownloadResumeBtn></DownloadResumeBtn>
           </div>
        
         </div>
