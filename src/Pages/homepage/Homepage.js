@@ -9,6 +9,7 @@ import ContactMe from "Pages/conatctMe/contactMe";
 import Projects from "components/projectDetails/projects";
 import Expirience from "components/expirience/expirience";
 import Education from "components/Education/education";
+import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
 
 export default function Homepage() {
   return (
@@ -26,8 +27,12 @@ export default function Homepage() {
             </div>
             <div>
               <span className="web-developer-text">Frontend Web Developer</span>
+              <div className="resume-btn-container">
+                <DownloadResumeBtn></DownloadResumeBtn>
+              </div>
             </div>
           </div>
+
           <div className="homepage-main-img">
             <img
               className="homepage-k-Img"
@@ -36,9 +41,9 @@ export default function Homepage() {
             ></img>
           </div>
         </div>
-       
+
         <About></About>
-       
+
         <Skills></Skills>
         <Expirience></Expirience>
         <Education></Education>
