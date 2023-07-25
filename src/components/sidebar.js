@@ -1,6 +1,6 @@
 import React from "react";
 import LogoWithTitle from "./Logo/logoWithTitle";
-import styles from "./sidebar.module.css"
+import styles from "./sidebar.module.css";
 export default function Sidebar() {
   let sidebarOptions = [
     {
@@ -13,7 +13,7 @@ export default function Sidebar() {
     },
     {
       displayName: "My Work",
-      id: "my_work",
+      id: "mywork",
     },
     {
       displayName: "Expirience",
@@ -24,6 +24,11 @@ export default function Sidebar() {
       id: "contact",
     },
   ];
+
+  const onMenuOptionClickHandler = (e) => {
+    console.log(e, e.target.id);
+    
+  };
   return (
     <div className={styles.sidebarMainContainer}>
       <LogoWithTitle></LogoWithTitle>
@@ -31,7 +36,13 @@ export default function Sidebar() {
         {sidebarOptions.map((option, i) => {
           return (
             <div className={styles.sidebarOptionContainer} key={i + 12}>
-              <div className={styles.optionText} id={option.id}>{option.displayName}</div>
+              <div
+                className={styles.optionText}
+                id={option.id}
+                onClick={(e) => onMenuOptionClickHandler(e)}
+              >
+                {option.displayName}
+              </div>
             </div>
           );
         })}

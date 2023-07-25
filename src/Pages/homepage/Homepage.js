@@ -6,6 +6,9 @@ import About from "Pages/about/about";
 import Skills from "Pages/skillsPage/skills";
 import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
+import Projects from "components/projectDetails/projects";
+import Expirience from "components/expirience/expirience";
+import Education from "components/Education/education";
 
 export default function Homepage() {
   return (
@@ -22,7 +25,7 @@ export default function Homepage() {
               </span>
             </div>
             <div>
-              <span className="web-developer-text">Web Developer</span>
+              <span className="web-developer-text">Frontend Web Developer</span>
             </div>
           </div>
           <div className="homepage-main-img">
@@ -33,8 +36,13 @@ export default function Homepage() {
             ></img>
           </div>
         </div>
+       
         <About></About>
+       
         <Skills></Skills>
+        <Expirience></Expirience>
+        <Education></Education>
+        <Projects></Projects>
         <ContactMe></ContactMe>
         {/* <SkillsMainPage></SkillsMainPage> */}
       </div>

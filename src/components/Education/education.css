@@ -1,0 +1,26 @@
+/* <div className='education-section'>
+<div className='step4'>
+    <img className='education-stage'></img>
+    <div className='education-title'></div>
+    <div className='education-desc'></div>
+</div> */
+.education-section{
+display: flex;
+justify-content: space-around;
+margin: 150px 0px;
+
+}
+.step4{
+    margin: 20px;
+}
+.education-stage{
+width: 150px;
+height: 150px;
+}
+.education-title , .education-desc{
+font-size: 18px;
+text-align: center;
+}
+.education-desc{
+
+}
