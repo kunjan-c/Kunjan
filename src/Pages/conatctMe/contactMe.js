@@ -12,7 +12,7 @@ export default function ContactMe() {
       <div className="connect-us-container">
         <div className="main-title">Contact Me</div>
         <div className="form-and-social-media-container">
-          <form className="form-tag">
+          {/* <form className="form-tag">
             <div className="form-input-container">
               <label htmlFor="name">Name</label>
               <input className="form-input" type="text" id="name"></input>
@@ -26,7 +26,7 @@ export default function ContactMe() {
               <textarea className="form-input" id="message"></textarea>
             </div>
             <button className="contact-me-button ">CONTACT</button>
-          </form>
+          </form> */}
           <div className="social-media-connect-container">
             <div className="connect-text contact-us-section-subtitle">
             Let's Collaborate
