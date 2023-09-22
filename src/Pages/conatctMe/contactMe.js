@@ -37,10 +37,10 @@ export default function ContactMe() {
             <div className="contcat-info-text">Email : choudharykunjan@gmail.com</div>
             <div className="contcat-info-text">Contact : +91 9167428797</div>
             <div className="social-icons-container">
-              <img className="social-icons " src={linkdin}></img>
-              <img className="social-icons" src={instagram}></img>
+              <a href="https://www.linkedin.com/in/kunjan-choudhary-8a73b411b/" target="__blank"><img className="social-icons " src={linkdin}></img></a>
+              {/* <img className="social-icons" src={instagram}></img>
               <img className="social-icons" src={facebook}></img>
-              <img className="social-icons" src={whatsApp}></img>
+              <img className="social-icons" src={whatsApp}></img> */}
             </div>
             <DownloadResumeBtn></DownloadResumeBtn>
           </div>
