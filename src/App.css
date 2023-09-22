@@ -93,6 +93,14 @@ body {
     padding: 0px;
   }
   .content-component-container {
-    margin: 50px;
+    margin: 15px;
+  }
+  .summary {
+    font-size: 14px;
+
+  }
+  .main-title {
+    font-size: 30px;
+
   }
 }
