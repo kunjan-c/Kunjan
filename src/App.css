@@ -2,8 +2,8 @@
   --main-background-color: #2e2e2e;
   --main-color: #b7bbd8;
   --highlightedText: "Merriweather", serif;
-  --secondaryPurpuleColor: #B259F7;
-  --whiteTextColor:white
+  --secondaryPurpuleColor: #b259f7;
+  --whiteTextColor: white;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   padding-top: 25px;
 }
@@ -61,8 +61,7 @@ body {
   font-family: "Hind", sans-serif;
   font-size: 50px;
   word-spacing: 10px;
-  color: #B259F7;
-
+  color: #b259f7;
 }
 .summary {
   font-size: 20px;
@@ -72,25 +71,36 @@ body {
   flex: 1;
 }
 .summary-text-container {
-  /* width: 100%; */
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
-  /* height: 100vh; */
   padding-top: 20px;
-  /* padding-top: 10vh; */
   flex-direction: row;
-
 }
 
 .homepage-section-container {
-  /* height: 100vh; */
-  /* background-color: red; */
-  padding-top: 100px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
   justify-content: flex-start;
+}
+@media screen and (max-width: 1000px) {
+  .sidebar-component-container {
+    display: none;
+  }
+  body {
+    margin: 0;
+    padding: 0px;
+  }
+  .content-component-container {
+    margin: 15px;
+  }
+  .summary {
+    font-size: 14px;
+
+  }
+  .main-title {
+    font-size: 30px;
+
+  }
 }

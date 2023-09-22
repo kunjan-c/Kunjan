@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import kunjanImg from "asset/img/kunjan_img2 2.png";
+import kunjanImg from "asset/img/Kc4.png";
 import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
@@ -18,9 +18,9 @@ export default function Homepage() {
         <div className="homepage-container homepage-section-container">
           <div className="homepage-intro">
             <div className="intro-text">Hi,</div>
-            <div>
+            <div className="second-line-intro">
               <span className="intro-text">I'm </span>
-              <span>
+              <span className="kunjan-name-with-img">
                 <img src={KLogo} className="K-text-intro" alt="kLogo"></img>
                 <span className="intro-text">unjan</span>
               </span>

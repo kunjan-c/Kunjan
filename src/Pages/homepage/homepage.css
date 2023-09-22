@@ -1,36 +1,88 @@
-.homepage-k-Img{
-    width: auto;
-    height: 90%;
-    /* padding-top: 40px; */
+.homepage-k-Img {
+  /* width: auto;
+  height: 90%; */
+  width: 70%;
+  height: auto;
 }
-.homepage-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
-.homepage-intro{
-    margin-top: 100px;
-    font-family: var(--highlightedText);
-}
-.intro-text{
-    font-size: 95px;
-    font-family: var(--highlightedText);
-    line-height: 140px;
-}
-.K-text-intro{
-font-size: 80px;
-}
-.web-developer-text{
-    font-size: 45px;
+.homepage-main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-.resume-btn-container{
-    display: flex;
-    height: 150px;
-    /* background-color: red; */
-    align-items: center;
-    padding: 0;
-    margin-top: 20px;
+.homepage-intro {
+
+  font-family: var(--highlightedText);
+}
+.kunjan-name-with-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 40px;
+  /* align-items: center; */
+}
+.intro-text {
+  font-size: 95px;
+  font-family: var(--highlightedText);
+  line-height: 140px;
+}
+.K-text-intro {
+  font-size: 95px;
+  height: 70px;
+  width: 70px;
+}
+.web-developer-text {
+  font-size: 45px;
+}
+.resume-btn-container {
+  display: flex;
+  height: 150px;
+  /* background-color: red; */
+  align-items: center;
+  padding: 0;
+  margin-top: 20px;
+}
+.second-line-intro {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 1200) {
+  
+
+}
+@media screen and (max-width: 900px) {
+  .homepage-k-Img {
+    display: none;
+  }
+  .intro-text{
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .web-developer-text {
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .K-text-intro {
+    font-size: 50px;
+    height: 54px;
+    width: 48px;
+}
+.homepage-container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.homepage-container {
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 }
