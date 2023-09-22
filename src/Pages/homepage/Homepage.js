@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import kunjanImg from "asset/img/Kc4.png";
+import kunjanImg from "asset/img/Kc5.PNG";
 import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
