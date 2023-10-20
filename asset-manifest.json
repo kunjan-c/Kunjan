@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kunjan/static/css/main.11058b1d.css",
-    "main.js": "/Kunjan/static/js/main.98c3d2a7.js",
+    "main.js": "/Kunjan/static/js/main.90be4d1b.js",
     "static/media/companyImg.png": "/Kunjan/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/solarSystemUI.png": "/Kunjan/static/media/solarSystemUI.6bb6fcc530b84e407817.png",
     "static/media/school.png": "/Kunjan/static/media/school.4c61baf26ef7a06184e9.png",
@@ -56,10 +56,10 @@
     "static/media/purpule_slash_icon.svg": "/Kunjan/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
     "index.html": "/Kunjan/index.html",
     "main.11058b1d.css.map": "/Kunjan/static/css/main.11058b1d.css.map",
-    "main.98c3d2a7.js.map": "/Kunjan/static/js/main.98c3d2a7.js.map"
+    "main.90be4d1b.js.map": "/Kunjan/static/js/main.90be4d1b.js.map"
   },
   "entrypoints": [
     "static/css/main.11058b1d.css",
-    "static/js/main.98c3d2a7.js"
+    "static/js/main.90be4d1b.js"
   ]
 }
