@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kunjan/static/css/main.11058b1d.css",
-    "main.js": "/Kunjan/static/js/main.90be4d1b.js",
+    "main.js": "/Kunjan/static/js/main.789f96b7.js",
     "static/media/companyImg.png": "/Kunjan/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/solarSystemUI.png": "/Kunjan/static/media/solarSystemUI.6bb6fcc530b84e407817.png",
     "static/media/school.png": "/Kunjan/static/media/school.4c61baf26ef7a06184e9.png",
@@ -11,7 +11,7 @@
     "static/media/graduationHat.png": "/Kunjan/static/media/graduationHat.b59bd6a16ecf8a2f0592.png",
     "static/media/instagram-g5f45ac6b7_1280.png": "/Kunjan/static/media/instagram-g5f45ac6b7_1280.74fdca24bd95065935fc.png",
     "static/media/whatsapp-gedd9623b0_1280.png": "/Kunjan/static/media/whatsapp-gedd9623b0_1280.e3f3d367fadfb7f9be08.png",
-    "static/media/Kunjan_Resume_2023.pdf": "/Kunjan/static/media/Kunjan_Resume_2023.fcd35b061bc98dff18f1.pdf",
+    "static/media/Kunjan_Resume_2023.pdf": "/Kunjan/static/media/Kunjan_Resume_2023.9ca7538378542898dba5.pdf",
     "static/media/movieDb.png": "/Kunjan/static/media/movieDb.3c50b7f2610eac6b1cfb.png",
     "static/media/htmlImg2.png": "/Kunjan/static/media/htmlImg2.fb627e76c05a9a6c7444.png",
     "static/media/cssImg2.png": "/Kunjan/static/media/cssImg2.ea63097553654f07d95c.png",
@@ -56,10 +56,10 @@
     "static/media/purpule_slash_icon.svg": "/Kunjan/static/media/purpule_slash_icon.54eaa3bd134c0dbd49ed9b55061b2386.svg",
     "index.html": "/Kunjan/index.html",
     "main.11058b1d.css.map": "/Kunjan/static/css/main.11058b1d.css.map",
-    "main.90be4d1b.js.map": "/Kunjan/static/js/main.90be4d1b.js.map"
+    "main.789f96b7.js.map": "/Kunjan/static/js/main.789f96b7.js.map"
   },
   "entrypoints": [
     "static/css/main.11058b1d.css",
-    "static/js/main.90be4d1b.js"
+    "static/js/main.789f96b7.js"
   ]
 }
