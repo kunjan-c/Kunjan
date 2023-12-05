@@ -4,6 +4,9 @@ padding: 10px 0px;
 }
 .summary{
     width: 30%;
+    padding-right: 60px;
+    line-height: 34px;
+    font-size: 18px;
 
 }
 
@@ -17,8 +20,8 @@ padding: 10px 0px;
 
 }
 .women-img{
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
     display: flex;
     align-items: center;
     /* position: absolute; */
@@ -29,5 +32,8 @@ padding: 10px 0px;
 @media screen and (max-width: 900px) {
     .women-img {
       display: none;
+    }
+    .summary{
+      padding-right: 0px;
     }
   }

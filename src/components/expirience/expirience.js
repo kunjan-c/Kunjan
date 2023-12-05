@@ -5,25 +5,25 @@ import soleCompany from "asset/img/solePropritorImg2.png";
 import freelancing from "asset/img/freelancerImg2.png";
 export default function Expirience() {
   return (
-    <>
-      <div className="main-title">Expirience</div>
-      <div className="exp-container">
+    <div id="expirience">
+      <div className="main-title">Experience</div>
+      <div className="exp-container" >
         <div className="single-exp-container">
-          <img src={soleCompany} className="company-type-img"></img>
-          <div className="company-name">Jackson N Softwear Solution</div>
-          <div className="company-name">Jun 2021 - Jun 2022</div>
+          <img src={soleCompany} alt="powernox IT solutionst"  className="company-type-img"></img>
+          <div className="company-name">PowerNox IT  Solution</div>
+          <div className="company-name">July 2020 - Jun 2022</div>
         </div>
         <div className="single-exp-container">
-          <img src={cs} className="company-type-img"></img>
+          <img src={cs} className="company-type-img" alt="controlsShift"></img>
           <div className="company-name">Controlshift</div>
           <div className="company-name">Jun 2022 - May 2023</div>
         </div>
         <div className="single-exp-container">
-          <img src={freelancing} className="company-type-img"></img>
+          <img src={freelancing} alt="freelancing" className="company-type-img"></img>
           <div className="company-name">Freelancing</div>
           <div className="company-name"> May 2023 - Present</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

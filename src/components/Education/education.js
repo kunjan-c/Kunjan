@@ -13,25 +13,25 @@ export default function Education() {
     
     
         <div className='step4'>
-            <img className='education-stage' src={PostGraduateGirl}></img>
+            <img className='education-stage' src={PostGraduateGirl} alt="education-stage"></img>
             <div className='education-title'>Mumbai University</div>
             <div className='education-desc'>Mcom Post Graduate </div>
             <div className='education-desc'> 2016-2018</div>
         </div>
         <div className='step4'>
-            <img className='education-stage' src={graduationPlace}></img>
+            <img className='education-stage' src={graduationPlace} alt="education-stage"></img>
             <div className='education-title'>Vivek College Of Commerce </div>
             <div className='education-desc'>Bcom Graduate</div>
             <div className='education-desc'>2013-2016</div>
         </div>
         <div className='step4'>
-            <img className='education-stage' src={collegeImg}></img>
+            <img className='education-stage' src={collegeImg} alt="education-stage"></img>
             <div className='education-title'>Vivek Vidyalaya</div>
             <div className='education-desc'>HSC</div>
             <div className='education-desc'>2011-2013</div>
         </div>
         <div className='step4'>
-            <img className='education-stage' src={schoolImg}></img>
+            <img className='education-stage' src={schoolImg} alt="education-stage"></img>
             <div className='education-title'>S. M. V. M.</div>
             <div className='education-desc'>SSC</div>
             <div className='education-desc'>2000-2010</div>

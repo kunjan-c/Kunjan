@@ -1,5 +1,4 @@
 import React from "react";
-import SkillsMarquee from "./skillsMarquee";
 import "./skills.css";
 import reduxColorLogo from "asset/svg/redux_color_logo.svg";
 import reduxGreyLogo from "asset/svg/redux_gray_logo.svg";
@@ -120,7 +119,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="homepage-section-container">
+    <div className="homepage-section-container" id="skills">
       <div className="main-title">Skills</div>
       {/* <div className="summary-text-container">
         <div className="summary">
