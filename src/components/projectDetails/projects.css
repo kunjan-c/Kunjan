@@ -1,5 +1,4 @@
 .portfolio-container {
-  /* background-color: green; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,7 +6,6 @@
   margin: 100px 0px ;
 }
 .single-portfolio-card {
-  /* background-color: red; */
   margin: 20px;
   width: 250px;
   height: 200px;
@@ -17,10 +15,9 @@
   align-items: center;
   flex-direction: column;
   box-shadow: #000000 0px 1px 15px -4px;
-  /* color: white; */
-  font-size: 20px;
+  font-size: 16px;
   perspective: 1000px;
-  cursor: pointer;
+ 
 }
 .portfolio-img {
   width: 200px;
@@ -29,12 +26,10 @@
 .portfolio-title {
   text-align: center;
   margin-top: 20px;
+  font-size: 16px;
 }
-.portfolio-desc {
-}
-.single-portfolio-card:hover {
-  /* transform: rotateY(180deg); */
-}
+
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -48,38 +43,10 @@
   justify-content: center;
   align-items: center;
 }
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+
+.project-live-link{
+  font-size: 14px;
 }
-.flip-card:hover .portfolio-title {
-  display: none;
-}
-.flip-card:hover .portfolio-title {
-  display: none;
-}
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-.flip-card-back {
-  /* color: white; */
-  transform: rotateY(180deg);
-  background-color: rgb(0, 0, 0);
-  /* box-shadow: inset 0px 5px 10px 0px var(--secondaryPurpuleColor); */
-}
-.flip-card-back-desc {
-  font-size: 16px;
-  margin: 15px;
-}
- 
 @media screen and (max-width: 900px) {
   .portfolio-container {
  justify-content: center;

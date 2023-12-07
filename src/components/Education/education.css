@@ -19,7 +19,9 @@ width: 150px;
 height: 150px;
 }
 .education-title , .education-desc{
-font-size: 18px;
+font-size: 16px;
+line-height: 26px;
+
 text-align: center;
 }
 .education-desc{

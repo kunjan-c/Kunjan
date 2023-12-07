@@ -31,17 +31,17 @@
   /* align-items: center; */
 }
 .intro-text {
-  font-size: 95px;
+  font-size: 85px;
   font-family: var(--highlightedText);
   line-height: 140px;
 }
 .K-text-intro {
-  font-size: 95px;
+  font-size: 85px;
   height: 70px;
   width: 70px;
 }
 .web-developer-text {
-  font-size: 45px;
+  font-size: 40px;
 }
 .resume-btn-container {
   display: flex;

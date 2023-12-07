@@ -1,19 +1,28 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import kunjanImg from "asset/img/Kc5.PNG";
 import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
 import Skills from "Pages/skillsPage/skills";
-import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
+// import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
 import Projects from "components/projectDetails/projects";
 import Expirience from "components/expirience/expirience";
 import Education from "components/Education/education";
 import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
+import Sidebar, { clickedMenuOption } from "components/sidebar";
+
+import { useContext } from "react";
 
 export default function Homepage() {
+
+  const clickedMenuOptionn = useContext(clickedMenuOption)
+
+
+  useEffect(()=>{  console.log(clickedMenuOptionn);},[clickedMenuOptionn])
   return (
     <Fragment>
+  
       <div className="">
         <div className="homepage-container homepage-section-container">
           <div className="homepage-intro">

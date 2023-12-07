@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar-component-container">
-        {/* <Sidebar /> */}
-        <LogoWithTitle></LogoWithTitle>
+        <Sidebar />
+        {/* <LogoWithTitle></LogoWithTitle> */}
       </div>
       <div className="content-component-container">
         <MainPage></MainPage>

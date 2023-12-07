@@ -1,15 +1,19 @@
 :root {
   --main-background-color: #2e2e2e;
   --main-color: #b7bbd8;
-  --highlightedText: "Merriweather", serif;
+  --highlightedText:'Roboto', sans-serif;
   --secondaryPurpuleColor: #b259f7;
   --whiteTextColor: white;
+  font-family: 'Roboto', sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main-background-color);
   color: var(--main-color);
   padding: 20px;
+  scroll-behavior: smooth;
 }
 .App {
   display: flex;
@@ -52,20 +56,17 @@ body {
 .logo-subtitle-text {
   text-align: center;
   padding-top: 5px;
-  font-family: "Hind", sans-serif;
   font-size: 14px;
   font-weight: normal;
 }
 .main-title {
   font-size: 30px;
-  font-family: "Hind", sans-serif;
   font-size: 50px;
   word-spacing: 10px;
   color: #b259f7;
 }
 .summary {
   font-size: 20px;
-  font-family: "Hind", sans-serif;
   letter-spacing: 2px;
   line-height: 2.2;
   flex: 1;
@@ -83,6 +84,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+a{
+  text-decoration: none;
+  color: #B7BBD8;
 }
 @media screen and (max-width: 1000px) {
   .sidebar-component-container {

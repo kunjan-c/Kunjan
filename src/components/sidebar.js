@@ -1,7 +1,11 @@
-import React from "react";
+import React, { createContext, useContext, useEffect } from "react";
 import LogoWithTitle from "./Logo/logoWithTitle";
 import styles from "./sidebar.module.css";
+import { useState } from "react";
+const clickedMenuOption = createContext();
 export default function Sidebar() {
+  const [selectedMenu, setSelectedMenu] = useState("about");
+
   let sidebarOptions = [
     {
       displayName: "About",
@@ -27,26 +31,37 @@ export default function Sidebar() {
 
   const onMenuOptionClickHandler = (e) => {
     console.log(e, e.target.id);
-    
+    setSelectedMenu(e.target.id);
   };
+
+  useEffect(() => {
+    console.log(selectedMenu);
+  }, [selectedMenu]);
   return (
-    <div className={styles.sidebarMainContainer}>
-      <LogoWithTitle></LogoWithTitle>
-      <div className={styles.sidebarSection}>
-        {sidebarOptions.map((option, i) => {
-          return (
-            <div className={styles.sidebarOptionContainer} key={i + 12}>
-              <div
-                className={styles.optionText}
-                id={option.id}
-                onClick={(e) => onMenuOptionClickHandler(e)}
-              >
-                {option.displayName}
+    <clickedMenuOption.Provider value={"varsha"}>
+      <div className={styles.sidebarMainContainer}>
+        <LogoWithTitle></LogoWithTitle>
+
+        <div className={styles.sidebarSection}>
+          {sidebarOptions.map((option, i) => {
+            return (
+              <div className={styles.sidebarOptionContainer} key={i + 12}>
+                <a href={`#${option.id}`}>
+                  <div
+                    className={styles.optionText}
+                    // id={option.id}
+                    onClick={(e) => onMenuOptionClickHandler(e)}
+                  >
+                    {option.displayName}
+                  </div>
+                </a>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </clickedMenuOption.Provider>
   );
 }
+
+export { clickedMenuOption };
