@@ -34,6 +34,14 @@ export default function Projects() {
       liveLInk: "https://fixologydxb.com/",
       projectSummaryText: "Design and developed website for the company",
     },
+    {
+      title: "InvoiceBuddy",
+      projectSummaryText: "Employee Management App",
+    },
+    {
+      title: "Job Portal App",
+      projectSummaryText: "Development of Job Portal App for UK based client",
+    },
   ];
   return (
     <>

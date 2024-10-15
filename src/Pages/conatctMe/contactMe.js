@@ -30,7 +30,7 @@ export default function ContactMe() {
                     Email : choudharykunjan@gmail.com
                   </div>
                   <div className="contcat-info-text">
-                    Contact : +91 9167428797
+                    Contact : +91 7208603575
                   </div>
                   <div className="social-icons-container">
                     <a
