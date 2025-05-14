@@ -7,6 +7,7 @@ import linkdin from "asset/img/linkedin_3536505.png";
 import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
 export default function ContactMe() {
   return (
+    
     <div className="form-container" id="contact">
       <div className="connect-us-container">
         <div className="main-title">Contact Me</div>

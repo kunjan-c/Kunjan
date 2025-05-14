@@ -1,6 +1,6 @@
 
 .exp-container{
-margin: 150px 0px;
+margin: 20px 0px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
@@ -26,5 +26,5 @@ margin: 10px;
 }
 
 .expirience-text-info{
-    margin-top: 30px;
+    margin-top: 20px;
 }

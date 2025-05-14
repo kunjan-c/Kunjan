@@ -1,39 +1,90 @@
-.about-container{
-padding: 10px 0px;
-
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* background: linear-gradient(135deg, #4c4c4c, #1e1e1e); */
+  padding: 50px;
+  position: relative;
+  text-align: center;
 }
-.summary{
-    width: 30%;
-    padding-right: 60px;
-    line-height: 34px;
-    font-size: 18px;
 
+.about-text-wrapper {
+  width: 70%;
+  color: var(--whiteTextColor);
+  z-index: 1;
+  padding: 20px;
+  background: #3a3a3a;  /* Semi-transparent dark background */
+  border-radius: 12px;
 }
 
-.summary-text-container{
-   position: relative;
-   display: flex;
-   flex-direction: row;
-   width: 100%;
-   height: auto;
-   align-items: center;
-
+.about-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondaryPurpuleColor);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }
-.women-img{
-    height: 350px;
-    width: 300px;
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.icon {
+  font-size: 2.5rem; /* Adjust size for the icon */
+}
+
+.content p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: var(--secondaryPurpuleColor);
+}
+
+.closing {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 30px;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-item {
+    font-size: 1rem;
+  }
+  .about-item {
     display: flex;
     align-items: center;
-    /* position: absolute; */
-    z-index: -1;
-    right: 0;
-}
-
-@media screen and (max-width: 900px) {
-    .women-img {
-      display: none;
-    }
-    .summary{
-      padding-right: 0px;
-    }
+    gap: 15px;
+    font-size: 1rem;
   }
+  
+  .icon {
+    font-size: 2rem; /* Adjust size for the icon */
+  }
+  .about-text-wrapper {
+    width: 100%;
+  }
+  .content p , .about-item {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}

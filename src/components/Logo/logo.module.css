@@ -3,9 +3,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 .kLogoImg{
   width: 40px;
   height: auto;
+
+}
+@media (max-width: 768px) {
+  .kLogoImg{
+    width: 20px;
+    height: auto;
+  
+  }
+  .logo-subtitle-text{
+    display: none;
+  }
+  .padding10 {
+    padding: 10px;
+  }
 
 }

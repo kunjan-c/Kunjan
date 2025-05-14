@@ -1,12 +1,12 @@
 :root {
   --main-background-color: #2e2e2e;
   --main-color: #b7bbd8;
-  --highlightedText:'Roboto', sans-serif;
+  --highlightedText: "Roboto", sans-serif;
   --secondaryPurpuleColor: #b259f7;
   --whiteTextColor: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -18,27 +18,31 @@ body {
 .App {
   display: flex;
   flex-direction: row;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 .width-100 {
   width: 100%;
 }
 .sidebar-component-container {
-  width: 120px;
+  width: 180px;
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
-  background-color: black;
-  padding-top: 25px;
 }
 .padding10 {
   padding: 10px;
 }
 .content-component-container {
   display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   margin-left: 130px;
   width: 100%;
   height: 100%;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 .horizontal-top-center {
   display: flex;
@@ -64,6 +68,7 @@ body {
   font-size: 50px;
   word-spacing: 10px;
   color: #b259f7;
+  text-align: center;
 }
 .summary {
   font-size: 20px;
@@ -82,31 +87,70 @@ body {
   padding-top: 10px;
   padding-bottom: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #B7BBD8;
+  color: #b7bbd8;
+}
+.sectionContaine-marginLeft {
+  margin-left: 30px;
 }
 @media screen and (max-width: 1000px) {
-  .sidebar-component-container {
-    display: none;
-  }
   body {
     margin: 0;
     padding: 0px;
   }
-  .content-component-container {
+  /* .content-component-container {
     margin: 15px;
-  }
+  } */
   .summary {
     font-size: 14px;
-
   }
   .main-title {
     font-size: 30px;
+  }
+  .sectionContaine-marginLeft {
+    margin-left: 30px;
+  }
+}
 
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-subtitle-text {
+    display: none;
+  }
+  .mainLogoContainer {
+    padding: 10px;
+  }
+  .content-component-container {
+    margin-left: 0px;
+  }
+  .sidebar-component-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .horizontal-center {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .padding10 {
+    padding: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .horizontal-center {
+    display: none;
   }
 }

@@ -1,68 +1,83 @@
-import React, { Fragment, useEffect } from "react";
-import kunjanImg from "asset/img/Kc5.PNG";
+import React, { Fragment, useEffect, useContext } from "react";
 import "./homepage.css";
-import KLogo from "asset/img/k_logo.png";
-import About from "Pages/about/about";
-// import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
-import ContactMe from "Pages/conatctMe/contactMe";
-import Projects from "components/projectDetails/projects";
-import Expirience from "components/expirience/expirience";
-import Education from "components/Education/education";
-import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
-import Sidebar, { clickedMenuOption } from "components/sidebar";
 
-import { useContext } from "react";
-import ExpPage from "Pages/ExpPage";
+import kunjanImg from "asset/img/Kc5.PNG";
+import KLogo from "asset/img/k_logo.png";
+
+import About from "Pages/about/about";
 import SkillsSection from "Pages/skillsPage/skills";
+import ExpPage from "Pages/ExpPage";
+import Education from "components/Education/education";
+import Projects from "components/projectDetails/projects";
+import ContactMe from "Pages/conatctMe/contactMe";
+import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
+import { clickedMenuOption } from "components/sidebar";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Homepage() {
+  const clickedMenuOptionn = useContext(clickedMenuOption);
 
-  const clickedMenuOptionn = useContext(clickedMenuOption)
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+    console.log(clickedMenuOptionn);
+  }, [clickedMenuOptionn]);
 
-
-  useEffect(()=>{  console.log(clickedMenuOptionn);},[clickedMenuOptionn])
   return (
     <Fragment>
-  
-      <div className="">
-        <div className="homepage-container homepage-section-container">
-          <div className="homepage-intro">
-            <div className="intro-text">Hi,</div>
-            <div className="second-line-intro">
-              <span className="intro-text">I'm </span>
-              <span className="kunjan-name-with-img">
-                <img src={KLogo} className="K-text-intro" alt="kLogo"></img>
-                <span className="intro-text">unjan</span>
-              </span>
-            </div>
-            <div>
-              <span className="web-developer-text">Frontend Web Developer</span>
-              <div className="resume-btn-container">
-                <DownloadResumeBtn></DownloadResumeBtn>
-              </div>
-            </div>
-          </div>
-
-          <div className="homepage-main-img">
-            <img
-              className="homepage-k-Img"
-              alt="homepage-k"
-              src={kunjanImg}
-            ></img>
+      <div className="homepage-container homepage-section-container">
+        {/* ===== Hero Section ===== */}
+        <div className="homepage-intro" data-aos="fade-right">
+          <h1 className="intro-greeting">Hi there! 👋</h1>
+          <h2 className="intro-name">
+            I'm <span className="name-highlight">Kunjan</span>
+          </h2>
+          <h3 className="role-title">Frontend Developer</h3>
+          <div className="resume-btn-container">
+            <DownloadResumeBtn />
           </div>
         </div>
 
-        <About></About>
+        {/* ===== Image Section ===== */}
+        <div className="homepage-main-img" data-aos="fade-left">
+          <img
+            className="homepage-k-Img"
+            alt="Kunjan profile"
+            src={kunjanImg}
+          />
+        </div>
+      </div>
 
-        {/* <Skills></Skills> */}
-        <SkillsSection/>
-        {/* <Expirience></Expirience> */}
-        <ExpPage/>
-        <Education></Education>
-        <Projects></Projects>
-        <ContactMe></ContactMe>
-   
-        {/* <SkillsMainPage></SkillsMainPage> */}
+      {/* ===== Section Divider & Pages ===== */}
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <About />
+      </div>
+
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <SkillsSection />
+      </div>
+
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <ExpPage />
+      </div>
+
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <Education />
+      </div>
+
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <Projects />
+      </div>
+
+      <div className="section-divider" />
+      <div data-aos="fade-up">
+        <ContactMe />
       </div>
     </Fragment>
   );

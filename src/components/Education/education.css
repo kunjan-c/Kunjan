@@ -1,29 +1,64 @@
-/* <div className='education-section'>
-<div className='step4'>
-    <img className='education-stage'></img>
-    <div className='education-title'></div>
-    <div className='education-desc'></div>
-</div> */
-.education-section{
-display: flex;
-justify-content: space-around;
-margin: 150px 0px;
-flex-wrap: wrap;
-
-}
-.step4{
+.education-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .step4 {
     margin: 20px;
-}
-.education-stage{
-width: 150px;
-height: 150px;
-}
-.education-title , .education-desc{
-font-size: 16px;
-line-height: 26px;
-
-text-align: center;
-}
-.education-desc{
-
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--main-background-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    color: var(--whiteTextColor);
+  }
+  
+  .education-stage {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .education-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--secondaryPurpuleColor);
+  }
+  
+  .education-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main-color);
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .education-section {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .step4 {
+      max-width: 80%;
+      margin: 10px 0;
+    }
+  
+    .education-title {
+      font-size: 18px;
+    }
+  
+    .education-desc {
+      font-size: 14px;
+    }
+  }
+  
