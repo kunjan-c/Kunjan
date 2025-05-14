@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kunjan/static/css/main.eb1e56b3.css",
+    "main.css": "/Kunjan/static/css/main.e605a0bc.css",
     "main.js": "/Kunjan/static/js/main.2c99cfbf.js",
     "static/media/companyImg.png": "/Kunjan/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/school.png": "/Kunjan/static/media/school.4c61baf26ef7a06184e9.png",
@@ -19,11 +19,11 @@
     "static/media/linkedin_3536505.png": "/Kunjan/static/media/linkedin_3536505.f249b38224ca41a0b909.png",
     "static/media/controlShiftLogo.svg": "/Kunjan/static/media/controlShiftLogo.65abb2ddda332cb4004f384b6df04b5e.svg",
     "index.html": "/Kunjan/index.html",
-    "main.eb1e56b3.css.map": "/Kunjan/static/css/main.eb1e56b3.css.map",
+    "main.e605a0bc.css.map": "/Kunjan/static/css/main.e605a0bc.css.map",
     "main.2c99cfbf.js.map": "/Kunjan/static/js/main.2c99cfbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb1e56b3.css",
+    "static/css/main.e605a0bc.css",
     "static/js/main.2c99cfbf.js"
   ]
 }
