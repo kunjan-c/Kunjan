@@ -8,8 +8,8 @@ import PostGraduateGirl from "asset/img/graduationHat.png";
 export default function Education() {
   return (
     <>
-      <div className="section-title">Education</div>
-      <div className="education-section">
+      <div className="section-title" >Education</div>
+      <div className="education-section" id='education'>
         <div className="step4" data-aos="zoom-in" >
           <img className="education-stage" src={PostGraduateGirl} alt="education-stage" />
           <div className="education-title">Mumbai University</div>

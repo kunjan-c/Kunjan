@@ -26,7 +26,7 @@ export default function Homepage() {
 
   return (
     <Fragment>
-      <div className="homepage-container homepage-section-container">
+      <div className="homepage-container homepage-section-container" id="home">
         {/* ===== Hero Section ===== */}
         <div className="homepage-intro" data-aos="fade-right">
           <h1 className="intro-greeting">Hi there! 👋</h1>

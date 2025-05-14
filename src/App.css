@@ -98,6 +98,21 @@ a {
 .sectionContaine-marginLeft {
   margin-left: 30px;
 }
+.optionText {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px 0px;
+  padding-left: 15px;
+  color: #b7bbd8;
+  cursor: pointer;
+}
+
+.optionText.active {
+  color: #b259f7;
+  font-weight: bold;
+  border-left: 3px solid #b259f7;
+  background-color: rgba(255, 255, 255, 0.05);
+}
 @media screen and (max-width: 1000px) {
   body {
     margin: 0;
@@ -147,6 +162,21 @@ a {
   }
   .padding10 {
     padding: 0px;
+  }
+  .optionText {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 0px;
+    padding-left: 10px;
+    color: #b7bbd8;
+    cursor: pointer;
+  }
+  
+  .optionText.active {
+    color: #b259f7;
+    font-weight: bold;
+    border-left: 1px solid #b259f7;
+    background-color: rgba(255, 255, 255, 0.05);
   }
 }
 @media (max-width: 400px) {
