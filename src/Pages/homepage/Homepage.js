@@ -3,7 +3,6 @@ import kunjanImg from "asset/img/Kc5.PNG";
 import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
-import Skills from "Pages/skillsPage/SkillsMarquee";
 // import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
 import Projects from "components/projectDetails/projects";

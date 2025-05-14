@@ -1,69 +1,77 @@
 import React from "react";
 import "./projects.css";
 
+const myPortfolio = [
+  {
+    title: "Health Measurement Web App",
+    client: "AIMD Technologies Inc. (US-based)",
+    department: "Software Engineering",
+    summary: "Developed a responsive front-end for an AI-powered health measurement application.",
+  },
+  {
+    title: "Finance Management App",
+    client: "PowerNox IT Solutions",
+    department: "Software Engineering",
+    summary: "Carried out requirement analysis and implemented the web version of a personal finance management app using ReactJS for provided UI mockups.",
+  },
+  {
+    title: "KYC Web Application",
+    client: "ControlShift Private Limited",
+    department: "Software Engineering",
+    summary: "Created a KYC application from scratch using ReactJS for front-end technology.",
+  },
+  {
+    title: "Ads Management Web Application",
+    client: "ControlShift Private Limited",
+    department: "Software Engineering",
+    summary: "Developed an ad management and analytics application with ReactJS as the front-end technology.",
+  },
+
+  {
+    title: "Corporate Website",
+    client: "Dubai Based Client",
+    department: "Software Engineering",
+    summary: "Developed and maintained a corporate website for a Dubai-based start-up.",
+  },
+  {
+    title: "Employee Management System",
+    client: "PowerNox IT Solutions",
+    department: "Software Engineering",
+    summary: "Developed an employee management portal using HTML, CSS, SCSS, and JavaScript as per the given design.",
+  },
+
+  {
+    title: "Kids Game",
+    client: "PowerNox IT Solutions",
+    department: "Software Engineering",
+    summary: "Developed a children's mobile game using HTML, CSS3, and vanilla JavaScript from provided UI mockups.",
+  },
+  // {
+  //   title: "Dhruv-Track (Fleet Vehicle Tracking)",
+  //   client: "OMD Solutions",
+  //   department: "Senior Coordinator",
+  //   summary: "Handled GPS device configuration, device-vehicle mapping, client coordination for hardware installation, and trained clients on dashboard usage. Supported sales pitches and technical demonstrations.",
+  // },
+];
 
 export default function Projects() {
-  const myPortfolio = [
-    {
-      title: "Jamben Technical Services",
-      liveLInk: "https://jambentechnicalservices.com/",
-      projectSummaryText: "developed corporate website for dubai based client",
-    },
-    {
-      title: "Wealthier",
-      projectSummaryText:
-        "Carried out requirement analysis and Implemented the web implementation for a personal finance management smartphone app using RectJS for provided UI mockups.",
-    },
-    {
-      title: "BabyChefPizza Game",
-      projectSummaryText:
-        "Carried out requirement analysis and Implemented the web implementation for a children’s mobile game using HTML, CSS3, and vanilla JavaScript from provided UI mockups.",
-    },
-    {
-      title: "Amazon Ad Management CMS",
-      projectSummaryText:
-        "Ad management, and analytics application written with React as front-end technology,      ",
-    },
-    {
-      title: "KYC Verification SDK",
-      projectSummaryText:
-        "Created KYC Application from scratch which was written with React as front-end-technology",
-    },
-    {
-      title: "Fixology Website",
-      liveLInk: "https://fixologydxb.com/",
-      projectSummaryText: "Design and developed website for the company",
-    },
-    {
-      title: "InvoiceBuddy",
-      projectSummaryText: "Employee Management App",
-    },
-    {
-      title: "Job Portal App",
-      projectSummaryText: "Development of Job Portal App for UK based client",
-    },
-  ];
   return (
-    <>
-      <div className="main-title" id="mywork">
-        Projects
-      </div>
+    <section className="projects-section" id="projects">
+      <h2 className="section-title">Projects</h2>
       <div className="portfolio-container">
-        {myPortfolio.map((projects) => {
+        {myPortfolio.map((project, idx) => {
           return (
-            <div className="single-portfolio-card flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-Front ">
-                  <div className="portfolio-title ">{projects.title}</div>
-                  <div className="project-live-link">
-                    {projects.liveLInk}
-                  </div>
-                </div>
+            <div className="project-card" key={idx}>
+              <div className="card-content">
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-client"><strong>Client:</strong> {project.client}</p>
+                <p className="project-department"><strong>Department:</strong> {project.department}</p>
+                <p className="project-summary">{project.summary}</p>
               </div>
             </div>
           );
         })}
       </div>
-    </>
+    </section>
   );
 }
