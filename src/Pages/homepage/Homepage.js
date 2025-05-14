@@ -13,6 +13,7 @@ import DownloadResumeBtn from "components/downloadResumeBTn/downloadResumeBtn";
 import Sidebar, { clickedMenuOption } from "components/sidebar";
 
 import { useContext } from "react";
+import ExpPage from "Pages/ExpPage";
 
 export default function Homepage() {
 
@@ -54,7 +55,8 @@ export default function Homepage() {
         <About></About>
 
         <Skills></Skills>
-        <Expirience></Expirience>
+        {/* <Expirience></Expirience> */}
+        <ExpPage/>
         <Education></Education>
         <Projects></Projects>
         <ContactMe></ContactMe>

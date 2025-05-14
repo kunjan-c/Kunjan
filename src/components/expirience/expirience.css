@@ -5,12 +5,12 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 }
+
 .single-exp-container{
 margin: 20px;
 display: flex;
 justify-content: center;
 flex-direction: column;
-
 }
 
 .company-type-img{
