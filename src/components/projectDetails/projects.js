@@ -61,8 +61,8 @@ export default function Projects() {
       <div className="portfolio-container">
         {myPortfolio.map((project, idx) => {
           return (
-            <div className="project-card" key={idx}>
-              <div className="card-content">
+            <div className="project-card" data-aos="zoom-in"  key={idx}>
+              <div className="card-content" >
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-client"><strong>Client:</strong> {project.client}</p>
                 <p className="project-department"><strong>Department:</strong> {project.department}</p>

@@ -42,7 +42,7 @@ export default function ExpPage() {
       <div id="experience" className="experience-wrapper">
         <div className="timeline">
           {experiences.map((exp, index) => (
-            <div className="timeline-item" key={index}>
+            <div className="timeline-item" data-aos="fade-left" key={index}>
               <div className="timeline-dot" />
               <div className="timeline-content">
                 <img src={exp.logo} alt={exp.company} className="company-logo" />

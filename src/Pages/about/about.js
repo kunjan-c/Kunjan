@@ -6,7 +6,7 @@ export default function About() {
     <section className="about-container"  id="about">
       <div className="about-text-wrapper">
         <h2 className="about-title">About Me</h2>
-        <div className="about-content">
+        <div className="about-content" data-aos="zoom-in">
           <div className="about-item">
             <span className="icon">👩‍💻</span>
             <div className="content">
