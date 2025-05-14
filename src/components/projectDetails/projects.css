@@ -10,6 +10,7 @@
   color: var(--secondaryPurpuleColor);
   margin-bottom: 40px;
   font-weight: 600;
+ 
 }
 
 .portfolio-container {
@@ -44,12 +45,14 @@
   color: var(--secondaryPurpuleColor);
   font-weight: 600;
   margin-bottom: 15px;
+  
 }
 
 .project-client,
 .project-department {
   font-size: 1rem;
   color: #b7bbd8;
+  
 }
 
 .project-summary {

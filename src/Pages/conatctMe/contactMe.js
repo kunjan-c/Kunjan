@@ -15,7 +15,7 @@ export default function ContactMe() {
           <div className="social-media-connect-container">
             <div className="contact-summary-info">
               <div className="collabarate-sum-container">
-                <div className="connect-text contact-us-section-subtitle">
+                <div className=" contact-us-section-subtitle">
                   Let's Collaborate
                 </div>
                 <div className="lets-connect-desc">
