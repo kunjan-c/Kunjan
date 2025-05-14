@@ -3,7 +3,7 @@ import kunjanImg from "asset/img/Kc5.PNG";
 import "./homepage.css";
 import KLogo from "asset/img/k_logo.png";
 import About from "Pages/about/about";
-import Skills from "Pages/skillsPage/skills";
+import Skills from "Pages/skillsPage/SkillsMarquee";
 // import SkillsMainPage from "Pages/skillsPage/skillsMainPage";
 import ContactMe from "Pages/conatctMe/contactMe";
 import Projects from "components/projectDetails/projects";
@@ -14,6 +14,7 @@ import Sidebar, { clickedMenuOption } from "components/sidebar";
 
 import { useContext } from "react";
 import ExpPage from "Pages/ExpPage";
+import SkillsSection from "Pages/skillsPage/skills";
 
 export default function Homepage() {
 
@@ -54,12 +55,14 @@ export default function Homepage() {
 
         <About></About>
 
-        <Skills></Skills>
+        {/* <Skills></Skills> */}
+        <SkillsSection/>
         {/* <Expirience></Expirience> */}
         <ExpPage/>
         <Education></Education>
         <Projects></Projects>
         <ContactMe></ContactMe>
+   
         {/* <SkillsMainPage></SkillsMainPage> */}
       </div>
     </Fragment>
