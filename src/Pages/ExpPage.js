@@ -16,22 +16,22 @@ const experiences = [
   },
 
   {
-    company: "PowerNox IT Solution",
+    company: "PowerNox IT Solutions",
     logo: powerNoxLogo,
     duration: "May 2023 - Present",
     title: "Software Engineer",
   },
   {
-    company: "Controlshift",
+    company: "Controlshift Pvt. Ltd.",
     logo: controlShiftLogo,
     duration: "Jun 2022 - May 2023",
     title: "Software Engineer",
   },
   {
-    company: "OMD Solution",
+    company: "OMD Solutions",
     logo: omdLogo,
     duration: "Oct 2018 - Dec 2019",
-    title: "Frontend Developer",
+    title: "Senior Coordinator",
   },
 ];
 
