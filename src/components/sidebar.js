@@ -10,7 +10,7 @@ import styles from "./sidebar.module.css";
 const clickedMenuOption = createContext();
 
 export default function Sidebar() {
-  const [selectedMenu, setSelectedMenu] = useState("about");
+  const [selectedMenu, setSelectedMenu] = useState("home");
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const observerRef = useRef(null);
@@ -30,7 +30,7 @@ export default function Sidebar() {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3, // improved threshold
+      threshold: 0.2,
     };
 
     const observerCallback = (entries) => {
