@@ -76,10 +76,8 @@
   .sidebarMainContainer {
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
     height: 50px;
     width: 100%;
-    /* background-color: red */
   }
 
   .sidebarSection {
@@ -113,31 +111,19 @@
     background: rgba(28, 28, 28, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    /* border: 1px solid rgba(255, 255, 255, 0.08); */
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); */
-    /* border-radius: 12px; */
   }
   .optionText {
     font-weight: 400;
     font-size: 12px;
     padding: 12px;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: var(--text-color); */
   }
 }
 @media (max-width: 500px) {
   .sidebarMainContainer {
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
     height: 50px;
     width: 100%;
-    /* background-color: red */
   }
 
   .sidebarSection {
@@ -171,20 +157,10 @@
     background: rgba(28, 28, 28, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    /* border: 1px solid rgba(255, 255, 255, 0.08); */
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); */
-    /* border-radius: 12px; */
   }
   .optionText {
     font-weight: 400;
     font-size: 10px;
-    padding: 8px;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: var(--text-color); */
+    padding: 6px;
   }
 }
