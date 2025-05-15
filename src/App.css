@@ -5,19 +5,26 @@
   --secondaryPurpuleColor: #b259f7;
   --whiteTextColor: white;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+
 }
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 body {
   background-color: var(--main-background-color);
   color: var(--main-color);
   padding: 20px;
   scroll-behavior: smooth;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 .App {
   display: flex;
   flex-direction: row;
+
+  /* overflow-x: hidden */
   /* overflow-x: hidden;
   overflow-y: auto; */
 }
@@ -117,6 +124,8 @@ a {
   body {
     margin: 0;
     padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
   }
   /* .content-component-container {
     margin: 15px;
@@ -147,9 +156,9 @@ a {
     margin-left: 0px;
   }
   .sidebar-component-container {
-    width: 100%;
+    width: 100vw;
     position: fixed;
-    left: 0;
+    /* left: 0; */
     top: 0;
     z-index: 100;
   }
