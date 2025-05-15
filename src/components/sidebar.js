@@ -13,6 +13,7 @@ export default function Sidebar() {
   const [selectedMenu, setSelectedMenu] = useState("about");
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const observerRef = useRef(null);
 
   const sidebarOptions = [
     { displayName: "Home", id: "home" },
@@ -24,23 +25,19 @@ export default function Sidebar() {
     { displayName: "Contact", id: "contact" },
   ];
 
-  const observerRef = useRef(null);
-
   // Auto-highlight based on scroll position
   useEffect(() => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3,
+      threshold: 0.3, // improved threshold
     };
 
     const observerCallback = (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute("id");
-          if (id) {
-            setSelectedMenu(id);
-          }
+        const id = entry.target.getAttribute("id");
+        if (entry.isIntersecting && id !== selectedMenu) {
+          setSelectedMenu(id);
         }
       });
     };
@@ -56,11 +53,9 @@ export default function Sidebar() {
     });
 
     return () => {
-      if (observerRef.current) {
-        observerRef.current.disconnect();
-      }
+      observerRef.current?.disconnect();
     };
-  }, []);
+  }, [selectedMenu]);
 
   // Scroll-up-reveal sidebar behavior
   useEffect(() => {
@@ -69,11 +64,9 @@ export default function Sidebar() {
 
       if (window.innerWidth <= 400) {
         if (currentScrollY > lastScrollY && currentScrollY > 50) {
-          // Scrolling down
-          setIsVisible(false);
+          setIsVisible(false); // scrolling down
         } else {
-          // Scrolling up
-          setIsVisible(true);
+          setIsVisible(true); // scrolling up
         }
         setLastScrollY(currentScrollY);
       }
@@ -83,12 +76,23 @@ export default function Sidebar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  // Click handler for menu options
   const onMenuOptionClickHandler = (optionId, e) => {
     e.preventDefault();
     setSelectedMenu(optionId);
+
     const section = document.getElementById(optionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+
+      // Prevent observer from interfering momentarily
+      observerRef.current?.disconnect();
+      setTimeout(() => {
+        sidebarOptions.forEach((option) => {
+          const sec = document.getElementById(option.id);
+          if (sec) observerRef.current?.observe(sec);
+        });
+      }, 1000);
     }
   };
 
@@ -103,15 +107,14 @@ export default function Sidebar() {
         <div className={styles.sidebarSection}>
           {sidebarOptions.map((option) => (
             <div className={styles.sidebarOptionContainer} key={option.id}>
-              <a href={`#${option.id}`}>
-                <div
-                  className={`${styles.optionText} ${
-                    selectedMenu === option.id ? styles.active : ""
-                  }`}
-                  onClick={(e) => onMenuOptionClickHandler(option.id, e)}
-                >
-                  {option.displayName}
-                </div>
+              <a
+                href={`#${option.id}`}
+                onClick={(e) => onMenuOptionClickHandler(option.id, e)}
+                className={`${styles.optionText} ${
+                  selectedMenu === option.id ? styles.active : ""
+                }`}
+              >
+                {option.displayName}
               </a>
             </div>
           ))}
