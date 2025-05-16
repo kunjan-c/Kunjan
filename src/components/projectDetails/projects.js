@@ -5,8 +5,10 @@ const myPortfolio = [
   {
     title: "Health Measurement Web App",
     client: "AIMD Technologies Inc. (US-based)",
-    department: "Software Engineering",
+     department: "Software Engineering",
+    link: "https://my.ai-md.com/",
     summary: "Developed a responsive front-end for an AI-powered health measurement application.",
+
   },
   {
     title: "Finance Management App",
@@ -18,20 +20,22 @@ const myPortfolio = [
     title: "KYC Web Application",
     client: "ControlShift Private Limited",
     department: "Software Engineering",
-    summary: "Created a KYC application from scratch using ReactJS for front-end technology.",
+    summary: "Built a KYC web application from scratch using ReactJS, enabling seamless identity verification with a clean, responsive UI",
   },
   {
     title: "Ads Management Web Application",
-    client: "ControlShift Private Limited",
+    client: "Adyogi",
+    link: "https://youtu.be/DtQ27jcxPc4",
     department: "Software Engineering",
-    summary: "Developed an ad management and analytics application with ReactJS as the front-end technology.",
+    summary: "Developed a dynamic Facebook-style ad management and analytics dashboard using ReactJS, featuring real-time campaign metrics, ad performance tracking, and a user-friendly interface.",
   },
 
   {
     title: "Corporate Website",
-    client: "Dubai Based Client",
-    department: "Software Engineering",
-    summary: "Developed and maintained a corporate website for a Dubai-based start-up.",
+    client: "Fixology",
+     department: "Software Engineering",
+    link: "https://fixologydxb.com/",
+    summary: "Designed and maintained a responsive corporate website for a Dubai-based startup, ensuring modern UI, cross-browser compatibility, and performance optimization.",
   },
   {
     title: "Employee Management System",
@@ -57,21 +61,39 @@ const myPortfolio = [
 export default function Projects() {
   return (
     <section className="projects-section" id="projects">
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title">Crafted With Code</h2>
       <div className="portfolio-container">
-        {myPortfolio.map((project, idx) => {
-          return (
-            <div className="project-card" data-aos="zoom-in"  key={idx}>
-              <div className="card-content" >
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-client"><strong>Client:</strong> {project.client}</p>
-                <p className="project-department"><strong>Department:</strong> {project.department}</p>
-                <p className="project-summary">{project.summary}</p>
-              </div>
+        {myPortfolio.map((project, idx) => (
+          <div className="project-card" data-aos="zoom-in" key={idx}>
+            <div className="card-content">
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-client"><strong>Client:</strong> {project.client}</p>
+              <p className="project-department"><strong>Department:</strong> {project.department}</p>
+              <p className="project-summary">{project.summary}</p>
+              {project.link && (
+                <a
+                  href={project.link}
+                  className="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🔗 View Project
+                </a>
+              )}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </section>
   );
 }
+
+
+
+
+
+
+
+
+
+

@@ -21,7 +21,7 @@ export default function Sidebar() {
     { displayName: "Skills", id: "skills" },
     { displayName: "Experience", id: "experience" },
     { displayName: "Education", id: "education" },
-    { displayName: "My Work", id: "projects" },
+    { displayName: "Projects", id: "projects" },
     { displayName: "Contact", id: "contact" },
   ];
 

@@ -27,7 +27,7 @@ const skillsData = {
 export default function SkillsSection() {
   return (
     <div className="skills-section" id="skills">
-      <h2 className="section-title">Engineering Skills</h2>
+      <h2 className="section-title">Skills</h2>
       {Object.entries(skillsData).map(([category, skills]) => (
         <div key={category} className="skill-group">
           <h3 className="skill-category">{category}</h3>
