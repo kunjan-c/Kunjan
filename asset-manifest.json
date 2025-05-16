@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kunjan/static/css/main.670c39bd.css",
-    "main.js": "/Kunjan/static/js/main.99492543.js",
+    "main.css": "/Kunjan/static/css/main.96de06a1.css",
+    "main.js": "/Kunjan/static/js/main.256010cd.js",
     "static/media/companyImg.png": "/Kunjan/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/school.png": "/Kunjan/static/media/school.4c61baf26ef7a06184e9.png",
     "static/media/Kc5.PNG": "/Kunjan/static/media/Kc5.02dc0d329b020919064d.PNG",
@@ -19,11 +19,11 @@
     "static/media/linkedin_3536505.png": "/Kunjan/static/media/linkedin_3536505.f249b38224ca41a0b909.png",
     "static/media/controlShiftLogo.svg": "/Kunjan/static/media/controlShiftLogo.65abb2ddda332cb4004f384b6df04b5e.svg",
     "index.html": "/Kunjan/index.html",
-    "main.670c39bd.css.map": "/Kunjan/static/css/main.670c39bd.css.map",
-    "main.99492543.js.map": "/Kunjan/static/js/main.99492543.js.map"
+    "main.96de06a1.css.map": "/Kunjan/static/css/main.96de06a1.css.map",
+    "main.256010cd.js.map": "/Kunjan/static/js/main.256010cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.670c39bd.css",
-    "static/js/main.99492543.js"
+    "static/css/main.96de06a1.css",
+    "static/js/main.256010cd.js"
   ]
 }
