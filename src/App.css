@@ -174,20 +174,9 @@ a {
     padding: 0px;
   }
   .optionText {
-    font-weight: 500;
-    font-size: 16px;
-    padding: 20px 0px;
-    padding-left: 10px;
-    color: #b7bbd8;
-    cursor: pointer;
+    padding-left: 15px;
   }
   
-  .optionText.active {
-    color: #b259f7;
-    font-weight: bold;
-    border-left: 1px solid #b259f7;
-    background-color: rgba(255, 255, 255, 0.05);
-  }
   .horizontal-center {
     display: none;
   }

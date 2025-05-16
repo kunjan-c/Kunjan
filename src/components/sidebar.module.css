@@ -47,10 +47,10 @@
   color: var(--text-color);
 }
 
-.optionText:hover {
+/* .optionText:hover {
   background-color: var(--hover-bg);
   color: var(--secondaryPurpuleColor);
-}
+} */
 
 .active {
   background-color: var(--active-bg);
@@ -133,9 +133,11 @@
     justify-content: flex-start;
   }
 
-  .optionText {
-    padding: 10px 4px;
-    font-size: 16px;
+  .optionText.active {
+    color: #b259f7;
+    font-weight: bold;
+    border-left: 1px solid #b259f7;
+    background-color: rgba(255, 255, 255, 0.05);
   }
   .sidebarOptionContainer {
     width: max-content;
@@ -161,6 +163,7 @@
   .optionText {
     font-weight: 400;
     font-size: 10px;
-    padding: 6px;
+    padding: 10px 5px;
+
   }
 }

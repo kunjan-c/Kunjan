@@ -11,14 +11,14 @@ const experiences = [
   {
     company: "AIMD Technologies",
     logo: aimdLogo,
-    duration: "May 2023 - Present",
+    duration: "Oct 2024 - Apr 2025",
     title: "Frontend Developer",
   },
 
   {
     company: "PowerNox IT Solutions",
     logo: powerNoxLogo,
-    duration: "May 2023 - Present",
+    duration: "May 2023 - Sep 2024",
     title: "Software Engineer",
   },
   {
