@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Kunjan/static/css/main.5f398343.css",
-    "main.js": "/Kunjan/static/js/main.256010cd.js",
+    "main.js": "/Kunjan/static/js/main.f1bee01d.js",
     "static/media/companyImg.png": "/Kunjan/static/media/companyImg.48dad6d65c1f11f5de3f.png",
     "static/media/school.png": "/Kunjan/static/media/school.4c61baf26ef7a06184e9.png",
     "static/media/Kc5.PNG": "/Kunjan/static/media/Kc5.02dc0d329b020919064d.PNG",
     "static/media/aimd-logo.svg": "/Kunjan/static/media/aimd-logo.87e70d1f10a6852521068f1572026cb1.svg",
-    "static/media/Kunjan_Resume_2023.pdf": "/Kunjan/static/media/Kunjan_Resume_2023.6377150ad03a305c6782.pdf",
     "static/media/solePropritorImg2.png": "/Kunjan/static/media/solePropritorImg2.d663093fec5f5cae5842.png",
     "static/media/graduationHat.png": "/Kunjan/static/media/graduationHat.b59bd6a16ecf8a2f0592.png",
     "static/media/instagram-g5f45ac6b7_1280.png": "/Kunjan/static/media/instagram-g5f45ac6b7_1280.74fdca24bd95065935fc.png",
     "static/media/whatsapp-gedd9623b0_1280.png": "/Kunjan/static/media/whatsapp-gedd9623b0_1280.e3f3d367fadfb7f9be08.png",
+    "static/media/Kunjan_Resume_2023.pdf": "/Kunjan/static/media/Kunjan_Resume_2023.88f18a23654f3e8b485f.pdf",
     "static/media/facebook-g2f441716f_1280.png": "/Kunjan/static/media/facebook-g2f441716f_1280.80440785ed8341e15cd5.png",
     "static/media/omd_logo.png": "/Kunjan/static/media/omd_logo.5625f050ac0414b04bf6.png",
     "static/media/powernox_black_logo.png": "/Kunjan/static/media/powernox_black_logo.8a92670ce8763e680b1b.png",
@@ -20,10 +20,10 @@
     "static/media/controlShiftLogo.svg": "/Kunjan/static/media/controlShiftLogo.65abb2ddda332cb4004f384b6df04b5e.svg",
     "index.html": "/Kunjan/index.html",
     "main.5f398343.css.map": "/Kunjan/static/css/main.5f398343.css.map",
-    "main.256010cd.js.map": "/Kunjan/static/js/main.256010cd.js.map"
+    "main.f1bee01d.js.map": "/Kunjan/static/js/main.f1bee01d.js.map"
   },
   "entrypoints": [
     "static/css/main.5f398343.css",
-    "static/js/main.256010cd.js"
+    "static/js/main.f1bee01d.js"
   ]
 }
