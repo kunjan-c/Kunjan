@@ -1,0 +1,143 @@
+/* ------------------------
+   HOMEPAGE LAYOUT STYLES
+------------------------ */
+.homepage-container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  padding: 0 100px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  /* min-width: 90%;
+  max-width: 50%; */
+}
+
+.homepage-main-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-k-Img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  max-width: 400px;
+}
+
+.homepage-k-Img:hover {
+  transform: scale(1.03);
+}
+
+/* ------------------------
+   INTRO TEXT STYLES
+------------------------ */
+.homepage-intro {
+  flex: 1;
+  font-family: var(--highlightedText);
+  padding-right: 40px;
+  min-width: 300px;
+
+}
+
+.intro-greeting {
+  font-size: 2.5rem;
+  color: var(--secondaryPurpuleColor);
+  margin-bottom: 0.5rem;
+}
+
+.intro-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--whiteTextColor);
+  margin-bottom: 1rem;
+}
+
+.name-highlight {
+  color: var(--secondaryPurpuleColor);
+}
+
+.role-title {
+  font-size: 1.8rem;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+}
+
+.resume-btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* ------------------------
+   SECTION DIVIDER
+------------------------ */
+.section-divider {
+  height: 1px;
+  width: 80%;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ------------------------
+   RESPONSIVE BREAKPOINTS
+------------------------ */
+@media screen and (max-width: 1024px) {
+  .homepage-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+
+  .homepage-intro {
+    padding-right: 0;
+  }
+
+  .homepage-k-Img {
+    width: 70%;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .intro-greeting {
+    font-size: 2rem;
+  }
+
+  .intro-name {
+    font-size: 2.5rem;
+  }
+
+  .role-title {
+    font-size: 1.5rem;
+  }
+
+  .resume-btn-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro-greeting {
+    font-size: 1.5rem;
+  }
+
+  .intro-name {
+    font-size: 2rem;
+  }
+
+  .role-title {
+    font-size: 1.2rem;
+  }
+
+  .homepage-k-Img {
+    width: 85%;
+  }
+}
